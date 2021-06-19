@@ -24,6 +24,7 @@ scd30 = SCD30()
 scd30.set_measurement_interval(2)
 scd30.start_periodic_measurement()
 
+time.sleep(2)
 
 while True:
     x=0
